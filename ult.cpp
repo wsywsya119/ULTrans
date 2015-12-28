@@ -18,7 +18,7 @@ int main()
 	int ascii='a'-'A';
 	string output;
 
-	for(int i=0;i<input.length();i++)
+	for(int i=0;i<(int)input.length();i++)
 	{
 		r=input.at(i);
 
