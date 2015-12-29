@@ -1,4 +1,4 @@
-SRCS:=ult.cpp
+SRCS:=main.cpp ult.cpp
 OBJS:=$(SRCS:.cpp=.o)
 EXEC:=ultrans
 CXX:=g++ -O6 -Wall
@@ -15,7 +15,7 @@ dep: .depend
 depned: .depend
 
 .depend:
-	$(CXX) -M $(EXEC) > $@ 
+	$(CXX) -M $(SRCS) > $@ 
 
 
 clean:

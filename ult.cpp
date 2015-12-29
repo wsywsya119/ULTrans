@@ -1,18 +1,10 @@
 #include<iostream>
-#include<vector>
+#include"ult.h"
 
 using namespace std;
 
-
-
-int main()
+string ULtrans(string input)
 {
-	string input;
-
-	cout<<"Enter your sentence to transform>>"<<endl;
-	getline(cin,input);
-
-	cout<<"The original sentence: "<<input<<endl;
 
 	char r;
 	int ascii='a'-'A';
@@ -36,6 +28,6 @@ int main()
 		}
 	}
 
-	cout<<output<<endl;
-
+	return(output);
 }
+
