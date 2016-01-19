@@ -1,2 +1,2 @@
 # ULTrans
-Automatically change upper-case or lower-case to other case.
+Automatically transform the upper-case or lower-case.
